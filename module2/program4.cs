@@ -1,3 +1,4 @@
+// do while
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,7 @@ namespace Mod1_Lab1
     {
         static void Main(string[] args)
         {
-            int doCounter = 0;
+            int doCounter = 5;
 
             Console.WriteLine();
             Console.WriteLine("do-while loop");
