@@ -13,7 +13,18 @@ namespace mod2_lab1
             #region Methods
             // Demonstrating methods
             // first method returns nothing anf accepts no paramteters
-            PrintSomething();
+            // PrintSomething();
+
+            // create some variables for use in a method call
+            int first = 10;
+            int second = 2;
+            string svalue;
+
+            // the method call will expect a single value returned 
+            // return value must be assigned 
+            // also pass in two args
+            int result = Sum(first, second);
+            Console.WriteLine("The sum of {0} and {1} is : {2}", first, second, result);
 
             #endregion
         }
